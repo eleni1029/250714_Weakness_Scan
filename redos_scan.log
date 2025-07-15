@@ -1,0 +1,682 @@
+2025-07-14 19:08:05,432 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/?pageIndex=1
+2025-07-14 19:08:05,432 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:05,432 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:07,242 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:07,243 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:41,936 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.faq]]
+2025-07-14 19:08:41,936 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:41,936 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:43,896 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:43,896 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:43,896 [INFO] 開始掃描: https://staging.tronclass.com/user/courses
+2025-07-14 19:08:43,896 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:43,896 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:45,518 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:45,518 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:45,518 [INFO] 開始掃描: https://staging.tronclass.com/user/sites-menu
+2025-07-14 19:08:45,518 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:45,518 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:47,176 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:47,176 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:47,176 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/new
+2025-07-14 19:08:47,176 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:47,176 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:48,689 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:48,689 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:48,689 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/
+2025-07-14 19:08:48,689 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:48,690 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:50,327 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:50,327 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:50,327 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/?pageIndex=1
+2025-07-14 19:08:50,327 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:50,327 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:51,937 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:51,937 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:51,937 [INFO] 開始掃描: https://staging.tronclass.com/
+2025-07-14 19:08:51,937 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:51,937 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:54,301 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:54,301 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:54,301 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/files
+2025-07-14 19:08:54,301 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:54,301 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:08:56,209 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:08:56,209 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:08:56,209 [INFO] 開始掃描: https://staging.tronclass.com/public-resource
+2025-07-14 19:08:56,209 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:08:56,209 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:00,696 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:00,696 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:00,696 [INFO] 開始掃描: https://staging.tronclass.com/user/time-table
+2025-07-14 19:09:00,697 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:00,697 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:02,364 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:02,364 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:02,364 [INFO] 開始掃描: https://staging.tronclass.com/user/curriculums
+2025-07-14 19:09:02,364 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:02,364 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:03,914 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:03,914 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:03,915 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.student]]
+2025-07-14 19:09:03,915 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:03,915 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:05,481 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:05,481 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:05,481 [INFO] 開始掃描: https://staging.tronclass.com/user/resource-groups
+2025-07-14 19:09:05,481 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:05,481 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:07,042 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:07,042 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:07,042 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.app]]
+2025-07-14 19:09:07,042 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:07,042 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:08,672 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:08,672 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:08,672 [INFO] 開始掃描: https://staging.tronclass.com/user/index
+2025-07-14 19:09:08,672 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:08,672 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:10,267 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:10,267 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:10,267 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.instructor]]
+2025-07-14 19:09:10,267 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:10,268 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:11,818 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:11,819 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:11,819 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/[[course.id]]/[[ui.urlPath]]?pageIndex=[[pageIndex]]
+2025-07-14 19:09:11,819 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:11,819 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:13,321 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:13,321 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:13,321 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/?pageIndex=[[pageIndex]]
+2025-07-14 19:09:13,321 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:13,321 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:14,926 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:14,926 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:14,926 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/new?pageIndex=[[pageIndex]]
+2025-07-14 19:09:14,926 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:14,926 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:17,219 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:17,220 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:17,220 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/[[course.id]]/info?pageIndex=[[pageIndex]]
+2025-07-14 19:09:17,220 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:17,220 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:18,765 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:18,765 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:18,765 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.sysadmin]]
+2025-07-14 19:09:18,766 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:18,766 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:20,401 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:20,401 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:09:20,401 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.admin]]
+2025-07-14 19:09:20,401 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:09:20,401 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:09:22,072 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:09:22,072 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:30,248 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/meta-data
+2025-07-14 19:10:30,249 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:30,249 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:32,077 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:32,077 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:32,077 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.instructor]]
+2025-07-14 19:10:32,077 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:32,077 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:33,728 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:33,728 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:33,728 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[manualUrlDict.admin]]
+2025-07-14 19:10:33,728 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:33,728 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:35,376 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:35,376 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:35,376 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/[[manualUrlDict.faq]]
+2025-07-14 19:10:35,376 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:35,376 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:36,949 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:36,949 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:36,949 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/[[manualUrlDict.instructor]]
+2025-07-14 19:10:36,949 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:36,949 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:38,713 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:38,713 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:38,713 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.student]]
+2025-07-14 19:10:38,713 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:38,713 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:40,344 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:40,344 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:40,344 [INFO] 開始掃描: https://staging.tronclass.com/user/curriculums
+2025-07-14 19:10:40,344 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:40,344 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:41,842 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:41,842 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:41,842 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/outline-setting
+2025-07-14 19:10:41,842 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:41,842 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:43,394 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:43,394 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:43,394 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/[[manualUrlDict.app]]
+2025-07-14 19:10:43,394 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:43,394 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:43,970 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:10:43,970 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/shared
+2025-07-14 19:10:43,970 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:43,970 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:45,435 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:45,435 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:45,435 [INFO] 開始掃描: https://staging.tronclass.com/course/[[manualUrlDict.faq]]
+2025-07-14 19:10:45,435 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:45,435 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:46,984 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:46,984 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:46,984 [INFO] 開始掃描: https://staging.tronclass.com/management/user#/[[user.id]]/info?pageIndex=[[pageIndex]]
+2025-07-14 19:10:46,984 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:46,984 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:48,455 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:48,455 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:48,455 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/[[manualUrlDict.app]]
+2025-07-14 19:10:48,455 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:48,455 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:50,015 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:50,015 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:50,015 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/[[manualUrlDict.admin]]
+2025-07-14 19:10:50,015 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:50,015 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:50,588 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:10:50,588 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/[[manualUrlDict.sysadmin]]
+2025-07-14 19:10:50,588 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:50,588 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:51,177 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:10:51,177 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[manualUrlDict.sysadmin]]
+2025-07-14 19:10:51,177 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:51,177 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:52,703 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:52,704 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:52,704 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/[[manualUrlDict.student]]
+2025-07-14 19:10:52,704 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:52,704 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:53,307 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:10:53,307 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/[[manualUrlDict.admin]]
+2025-07-14 19:10:53,307 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:53,307 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:54,855 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:54,855 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:54,855 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/[[permissionsGroupId]]/permissions-users
+2025-07-14 19:10:54,855 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:54,855 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:56,470 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:56,470 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:56,470 [INFO] 開始掃描: https://staging.tronclass.com/management/user#/[[currentUser.id]]/enrollment
+2025-07-14 19:10:56,470 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:56,470 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:58,079 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:10:58,080 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:10:58,080 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/[[manualUrlDict.faq]]
+2025-07-14 19:10:58,080 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:58,080 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:10:58,732 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:10:58,732 [INFO] 開始掃描: https://staging.tronclass.com/user/resource-groups
+2025-07-14 19:10:58,732 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:10:58,732 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:00,284 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:00,284 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:00,284 [INFO] 開始掃描: https://staging.tronclass.com/management/user#/
+2025-07-14 19:11:00,284 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:00,284 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:01,764 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:01,764 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:01,764 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[manualUrlDict.instructor]]
+2025-07-14 19:11:01,764 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:01,764 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:03,420 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:03,420 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:03,420 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/new?pageIndex=[[pageIndex]]
+2025-07-14 19:11:03,421 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:03,421 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:05,034 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:05,034 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:05,034 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.app]]
+2025-07-14 19:11:05,034 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:05,034 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:06,618 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:06,618 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:06,618 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/collection
+2025-07-14 19:11:06,618 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:06,618 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:08,178 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:08,178 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:08,178 [INFO] 開始掃描: https://staging.tronclass.com/management/user#/[[user.id]]/rollcall?pageIndex=[[pageIndex]]
+2025-07-14 19:11:08,178 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:08,178 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:09,681 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:09,681 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:09,681 [INFO] 開始掃描: https://staging.tronclass.com/[[manualUrlDict.app]]
+2025-07-14 19:11:09,681 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:09,681 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:11,228 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:11,228 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:11,228 [INFO] 開始掃描: https://staging.tronclass.com/[[manualUrlDict.admin]]
+2025-07-14 19:11:11,228 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:11,228 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:12,941 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:12,941 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:12,941 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/[[manualUrlDict.sysadmin]]
+2025-07-14 19:11:12,941 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:12,941 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:14,625 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:14,625 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:14,625 [INFO] 開始掃描: https://staging.tronclass.com/[[manualUrlDict.faq]]
+2025-07-14 19:11:14,625 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:14,625 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:16,434 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:16,434 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:16,434 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/lesson-resource
+2025-07-14 19:11:16,434 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:16,434 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:18,098 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:18,098 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:18,098 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/entries
+2025-07-14 19:11:18,098 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:18,098 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:19,740 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:19,740 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:19,740 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/[[manualUrlDict.admin]]
+2025-07-14 19:11:19,740 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:19,740 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:20,337 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:11:20,337 [INFO] 開始掃描: https://staging.tronclass.com/user/courses
+2025-07-14 19:11:20,337 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:20,337 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:22,741 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:22,741 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:22,741 [INFO] 開始掃描: https://staging.tronclass.com/course/[[manualUrlDict.admin]]
+2025-07-14 19:11:22,741 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:22,741 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:24,461 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:24,461 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:24,461 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/?pageIndex=1
+2025-07-14 19:11:24,461 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:24,461 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:26,065 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:26,065 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:26,065 [INFO] 開始掃描: https://staging.tronclass.com/user/timetable
+2025-07-14 19:11:26,065 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:26,065 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:27,614 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:27,615 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:27,615 [INFO] 開始掃描: https://staging.tronclass.com/course/[[manualUrlDict.app]]
+2025-07-14 19:11:27,615 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:27,615 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:30,025 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:30,025 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:30,025 [INFO] 開始掃描: https://staging.tronclass.com/wg-admin/request
+2025-07-14 19:11:30,025 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:30,025 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:31,831 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:31,831 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:31,831 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/[[manualUrlDict.student]]
+2025-07-14 19:11:31,831 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:31,831 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:33,449 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:33,449 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:33,449 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/[[manualUrlDict.instructor]]
+2025-07-14 19:11:33,450 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:33,450 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:34,046 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:11:34,046 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/[[course.id]]/[[ui.urlPath]]?pageIndex=[[pageIndex]]
+2025-07-14 19:11:34,046 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:34,046 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:35,649 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:35,649 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:35,649 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/
+2025-07-14 19:11:35,649 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:35,649 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:37,202 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:37,202 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:37,202 [INFO] 開始掃描: https://staging.tronclass.com/user/[[manualUrlDict.app]]
+2025-07-14 19:11:37,202 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:37,202 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:38,679 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:38,679 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:38,679 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/[[manualUrlDict.faq]]
+2025-07-14 19:11:38,679 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:38,679 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:39,254 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:11:39,254 [INFO] 開始掃描: https://staging.tronclass.com/
+2025-07-14 19:11:39,254 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:39,254 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:41,537 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:41,537 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:41,537 [INFO] 開始掃描: https://staging.tronclass.com/course/[[manualUrlDict.sysadmin]]
+2025-07-14 19:11:41,537 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:41,537 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:43,030 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:43,030 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:43,030 [INFO] 開始掃描: https://staging.tronclass.com/[[manualUrlDict.sysadmin]]
+2025-07-14 19:11:43,030 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:43,030 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:44,610 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:44,610 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:44,610 [INFO] 開始掃描: https://staging.tronclass.com/management/user#/new
+2025-07-14 19:11:44,610 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:44,610 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:46,270 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:46,270 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:46,270 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/[[course.id]]/info?pageIndex=[[pageIndex]]
+2025-07-14 19:11:46,270 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:46,270 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:47,843 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:47,843 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:47,843 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/permissions-basic-info
+2025-07-14 19:11:47,843 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:47,843 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:49,445 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:49,445 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:49,446 [INFO] 開始掃描: https://staging.tronclass.com/user/[[manualUrlDict.admin]]
+2025-07-14 19:11:49,446 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:49,446 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:50,973 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:50,973 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:50,973 [INFO] 開始掃描: https://staging.tronclass.com/user/[[manualUrlDict.student]]
+2025-07-14 19:11:50,973 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:50,973 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:52,475 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:52,475 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:52,475 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/advanced
+2025-07-14 19:11:52,475 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:52,475 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:54,112 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:54,112 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:54,112 [INFO] 開始掃描: https://staging.tronclass.com/management/user#/new?pageIndex=[[pageIndex]]
+2025-07-14 19:11:54,112 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:54,112 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:55,667 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:55,667 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:55,667 [INFO] 開始掃描: https://staging.tronclass.com/user/None
+2025-07-14 19:11:55,667 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:55,667 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:57,401 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:57,401 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:57,401 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/track-user
+2025-07-14 19:11:57,401 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:57,401 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:11:59,418 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:11:59,418 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:11:59,418 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/?tab=nav-setting
+2025-07-14 19:11:59,418 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:11:59,419 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:00,937 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:00,937 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:00,937 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.sysadmin]]
+2025-07-14 19:12:00,937 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:00,937 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:02,712 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:02,712 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:02,712 [INFO] 開始掃描: https://staging.tronclass.com/user/sites-menu
+2025-07-14 19:12:02,712 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:02,712 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:04,603 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:04,603 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:04,603 [INFO] 開始掃描: https://staging.tronclass.com/[[renderDetailURL(resource.id, '')]]
+2025-07-14 19:12:04,603 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:04,603 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:06,603 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:06,603 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:06,603 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/[[permissionsGroupId]]/permissions-departments
+2025-07-14 19:12:06,603 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:06,603 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:08,213 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:08,213 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:08,213 [INFO] 開始掃描: https://staging.tronclass.com/user/settings
+2025-07-14 19:12:08,213 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:08,213 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:10,365 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:10,365 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:10,365 [INFO] 開始掃描: https://staging.tronclass.com/user/None/c/portal/layout
+2025-07-14 19:12:10,365 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:10,365 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:12,065 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:12,065 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:12,065 [INFO] 開始掃描: https://staging.tronclass.com/user/[[manualUrlDict.instructor]]
+2025-07-14 19:12:12,065 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:12,065 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:13,765 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:13,765 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:13,765 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/track-user-resource
+2025-07-14 19:12:13,765 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:13,765 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:17,177 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:17,177 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:17,177 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[renderTrackUserResourceURL(reference.created_by_id)]]
+2025-07-14 19:12:17,177 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:17,177 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:18,847 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:18,848 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:18,848 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[manualUrlDict.app]]
+2025-07-14 19:12:18,848 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:18,848 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:20,357 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:20,357 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:20,357 [INFO] 開始掃描: https://staging.tronclass.com/[[manualUrlDict.instructor]]
+2025-07-14 19:12:20,357 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:20,357 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:22,184 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:22,184 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:22,184 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/user/27923/[[manualUrlDict.sysadmin]]
+2025-07-14 19:12:22,184 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:22,184 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:22,804 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:12:22,804 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.admin]]
+2025-07-14 19:12:22,804 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:22,804 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:25,012 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:25,012 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:25,013 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/[[manualUrlDict.app]]
+2025-07-14 19:12:25,013 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:25,013 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:25,636 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:12:25,636 [INFO] 開始掃描: https://staging.tronclass.com/course/[[manualUrlDict.instructor]]
+2025-07-14 19:12:25,636 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:25,636 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:27,345 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:27,345 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:27,345 [INFO] 開始掃描: https://staging.tronclass.com/login?next=/shared-resource/search
+2025-07-14 19:12:27,345 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:27,345 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:28,811 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:28,811 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:28,811 [INFO] 開始掃描: https://staging.tronclass.com/campus-subject-lib/
+2025-07-14 19:12:28,811 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:28,811 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:30,344 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:30,344 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:30,344 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/rubrics
+2025-07-14 19:12:30,344 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:30,344 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:33,480 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:33,480 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:33,480 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/subject-libs
+2025-07-14 19:12:33,480 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:33,480 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:35,132 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:35,132 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:35,132 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/?pageIndex=[[pageIndex]]
+2025-07-14 19:12:35,132 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:35,132 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:36,627 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:36,627 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:36,627 [INFO] 開始掃描: https://staging.tronclass.com/public-resource
+2025-07-14 19:12:36,627 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:36,627 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:41,122 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:41,122 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:41,122 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/search#?keyword=[[tag.name]]
+2025-07-14 19:12:41,122 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:41,122 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:44,020 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:44,020 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:44,020 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/new
+2025-07-14 19:12:44,020 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:44,020 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:45,657 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:45,657 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:45,657 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/[[permissionsGroupId]]/permissions-basic-info
+2025-07-14 19:12:45,657 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:45,657 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:47,199 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:47,199 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:47,199 [INFO] 開始掃描: https://staging.tronclass.com/[[manualUrlDict.student]]
+2025-07-14 19:12:47,199 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:47,199 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:48,809 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:48,810 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:48,810 [INFO] 開始掃描: https://staging.tronclass.com/management/course#/
+2025-07-14 19:12:48,810 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:48,810 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:50,368 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:50,368 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:50,368 [INFO] 開始掃描: https://staging.tronclass.com/user/[[manualUrlDict.sysadmin]]
+2025-07-14 19:12:50,368 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:50,368 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:52,081 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:52,081 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:52,081 [INFO] 開始掃描: https://staging.tronclass.com/course/[[manualUrlDict.student]]
+2025-07-14 19:12:52,081 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:52,081 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:53,739 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:53,739 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:53,739 [INFO] 開始掃描: https://staging.tronclass.com/course/customize-add#/customize-add
+2025-07-14 19:12:53,739 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:53,739 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:55,277 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:55,277 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:55,277 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/upload-constraints
+2025-07-14 19:12:55,277 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:55,277 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:56,852 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:56,853 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:56,853 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/[[manualUrlDict.instructor]]
+2025-07-14 19:12:56,853 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:56,853 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:57,450 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:12:57,450 [INFO] 開始掃描: https://staging.tronclass.com/user/[[manualUrlDict.faq]]
+2025-07-14 19:12:57,450 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:57,450 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:12:58,981 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:12:58,981 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:12:58,981 [INFO] 開始掃描: https://staging.tronclass.com/management/[[manualUrlDict.faq]]
+2025-07-14 19:12:58,981 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:12:58,981 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:00,647 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:00,647 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:00,647 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/search
+2025-07-14 19:13:00,647 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:00,647 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:03,225 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:03,225 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:03,225 [INFO] 開始掃描: https://staging.tronclass.com/shared-resource/[[manualUrlDict.student]]
+2025-07-14 19:13:03,225 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:03,226 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:03,824 [INFO] 掃描結果：無 AngularJS
+2025-07-14 19:13:03,825 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/files
+2025-07-14 19:13:03,825 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:03,825 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:05,358 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:05,358 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:05,358 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/shared#/shareToMe
+2025-07-14 19:13:05,358 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:05,358 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:06,999 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:06,999 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:06,999 [INFO] 開始掃描: https://staging.tronclass.com/user/time-table
+2025-07-14 19:13:06,999 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:06,999 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:08,619 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:08,619 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:08,619 [INFO] 開始掃描: https://staging.tronclass.com/course/add
+2025-07-14 19:13:08,619 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:08,619 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:10,200 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:10,200 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:10,200 [INFO] 開始掃描: https://staging.tronclass.com/management/plan
+2025-07-14 19:13:10,200 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:10,200 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:11,774 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:11,774 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:11,774 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/track-user#/follower
+2025-07-14 19:13:11,774 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:11,774 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:13,837 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:13,837 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:13,837 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[manualUrlDict.faq]]
+2025-07-14 19:13:13,837 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:13,837 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:15,379 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:15,379 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:15,379 [INFO] 開始掃描: https://staging.tronclass.com/user/index
+2025-07-14 19:13:15,379 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:15,379 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:17,049 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:17,049 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:17,049 [INFO] 開始掃描: https://staging.tronclass.com/user/resources/[[manualUrlDict.student]]
+2025-07-14 19:13:17,049 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:17,049 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:19,009 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:19,009 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:19,009 [INFO] 開始掃描: https://staging.tronclass.com/management/settings#/permissions
+2025-07-14 19:13:19,009 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:19,009 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:20,705 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:20,705 [INFO] 掃描完成，vulnerable=False
+2025-07-14 19:13:20,705 [INFO] 開始掃描: https://staging.tronclass.com/combine-course
+2025-07-14 19:13:20,705 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 19:13:20,705 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 19:13:22,261 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 19:13:22,261 [INFO] 掃描完成，vulnerable=False
+2025-07-14 20:47:55,465 [INFO] 開始掃描: http://localhost:3000/cve_2022_25844_test.html
+2025-07-14 20:47:55,465 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 20:47:55,466 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 20:47:56,309 [INFO] AngularJS 版本: 1.8.3
+2025-07-14 20:47:56,309 [INFO] 掃描完成，vulnerable=False
+2025-07-14 20:52:52,867 [INFO] 開始掃描: http://localhost:3000/cve_2022_25844_test.html
+2025-07-14 20:52:52,867 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 20:52:52,867 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 20:52:53,359 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,360 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,361 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,363 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,364 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,364 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,366 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,367 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,368 [WARNING] [錯誤] 無法取得 delay：{'error': '[ng:btstrpd] http://errors.angularjs.org/1.8.3/ng/btstrpd?p0=%26lt%3Bbody%20ng-controller%3D%22MainCtrl%22%20class%3D%22ng-scope%22%26gt%3B'}
+2025-07-14 20:52:53,388 [INFO] 掃描完成，vulnerable=False
+2025-07-14 20:56:58,763 [INFO] 開始掃描: http://localhost:3000/cve_2022_25844_test.html
+2025-07-14 20:56:58,763 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 20:56:58,763 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 20:56:59,241 [INFO] 掃描完成，vulnerable=False
+2025-07-14 21:00:24,482 [INFO] 開始掃描: http://localhost:3000/cve_2022_25844_test.html
+2025-07-14 21:00:24,483 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 21:00:24,483 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 21:00:25,002 [INFO] 掃描完成，vulnerable=False
+2025-07-14 21:01:46,200 [INFO] 開始掃描: http://localhost:3000/cve_2022_25844_test.html
+2025-07-14 21:01:46,200 [INFO] 輸入 payload 長度: [10000, 50000, 200000]
+2025-07-14 21:01:46,200 [INFO] 預期判定: 延遲倍增 ≥ 10 且延遲 > 100ms
+2025-07-14 21:01:46,672 [INFO] 掃描完成，vulnerable=False
+2025-07-14 21:08:34,466 [INFO] 開始掃描: http://localhost:3000/cve_2022_25844_test.html
+2025-07-14 21:08:34,466 [INFO] 輸入 payload 長度: [100000, 300000, 600000]
+2025-07-14 21:08:34,467 [INFO] 預期判定: 延遲倍增 ≥ 2 且延遲 > 50ms
+2025-07-14 21:08:34,956 [INFO] [結果] payloadLen=100000, 執行次數=1, 延遲=0.02 ms
+2025-07-14 21:08:34,958 [INFO] [結果] payloadLen=100000, 執行次數=2, 延遲=0.00 ms
+2025-07-14 21:08:34,959 [INFO] [結果] payloadLen=100000, 執行次數=3, 延遲=0.02 ms
+2025-07-14 21:08:34,960 [INFO] [結果] payloadLen=100000, 執行次數=4, 延遲=0.02 ms
+2025-07-14 21:08:34,962 [INFO] [結果] payloadLen=100000, 執行次數=5, 延遲=0.00 ms
+2025-07-14 21:08:34,963 [INFO] [結果] payloadLen=300000, 執行次數=1, 延遲=0.02 ms
+2025-07-14 21:08:34,964 [INFO] [結果] payloadLen=300000, 執行次數=2, 延遲=0.02 ms
+2025-07-14 21:08:34,965 [INFO] [結果] payloadLen=300000, 執行次數=3, 延遲=0.00 ms
+2025-07-14 21:08:34,967 [INFO] [結果] payloadLen=300000, 執行次數=4, 延遲=0.02 ms
+2025-07-14 21:08:34,968 [INFO] [結果] payloadLen=300000, 執行次數=5, 延遲=0.00 ms
+2025-07-14 21:08:34,969 [INFO] [結果] payloadLen=600000, 執行次數=1, 延遲=0.00 ms
+2025-07-14 21:08:34,970 [INFO] [結果] payloadLen=600000, 執行次數=2, 延遲=0.00 ms
+2025-07-14 21:08:34,971 [INFO] [結果] payloadLen=600000, 執行次數=3, 延遲=0.00 ms
+2025-07-14 21:08:34,972 [INFO] [結果] payloadLen=600000, 執行次數=4, 延遲=0.00 ms
+2025-07-14 21:08:34,973 [INFO] [結果] payloadLen=600000, 執行次數=5, 延遲=0.00 ms
+2025-07-14 21:08:34,992 [INFO] 掃描完成，vulnerable=False

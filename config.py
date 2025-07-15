@@ -9,7 +9,7 @@ DEFAULT_PASSWORD = "test123"
 
 # 預設目標網址
 DEFAULT_LOGIN_URL = "https://staging.tronclass.com/login"
-DEFAULT_TARGET_URL = "https://staging.tronclass.com/"
+DEFAULT_TARGET_URL = "https://staging.tronclass.com/management/course#/?pageIndex=1"
 
 # 爬取設定
 DEFAULT_CRAWL_DEPTH = 0  # 預設爬取深度
@@ -44,7 +44,8 @@ AVAILABLE_CVES = [
     "CVE-2023-26117", # Angular表單弱點
     "CVE-2023-26116", # Angular路由弱點
     "CVE-2022-25869", # 原型污染弱點
-    "CVE-2022-25844"  # Angular相依性注入弱點
+    "CVE-2022-25844",  # Angular相依性注入弱點
+    "CVE-2022-25844_2"  # Angular相依性注入弱點
 ]
 
 # 日誌設定

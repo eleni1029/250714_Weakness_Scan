@@ -16,6 +16,15 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 import config
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+
+# 安全 lower 輔助函式
+
+def safe_lower(val):
+    return val.lower() if isinstance(val, str) else str(val).lower()
 
 class VulnerabilityScanner:
     def __init__(self):
@@ -173,94 +182,98 @@ class VulnerabilityScanner:
             return config.DEFAULT_CRAWL_DEPTH
     
     def login(self, login_url, username, password):
-        """Perform login"""
+        """Perform login (Selenium)"""
+        print(f"[資訊] 嘗試 Selenium 自動化登入: {login_url}")
         try:
-            print(f"[資訊] 嘗試登入: {login_url}")
-            
-            # Get login page
+            chrome_options = Options()
+            chrome_options.add_argument('--headless')
+            chrome_options.add_argument('--no-sandbox')
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            driver = webdriver.Chrome(options=chrome_options)
+            driver.get(login_url)
+            time.sleep(2)
+            # 根據實際頁面調整 selector
+            try:
+                user_input = driver.find_element(By.NAME, "username")
+            except Exception:
+                user_input = driver.find_element(By.CSS_SELECTOR, "input[type='text']")
+            user_input.clear()
+            user_input.send_keys(username)
+            try:
+                pwd_input = driver.find_element(By.NAME, "password")
+            except Exception:
+                pwd_input = driver.find_element(By.CSS_SELECTOR, "input[type='password']")
+            pwd_input.clear()
+            pwd_input.send_keys(password)
+            pwd_input.send_keys(Keys.RETURN)
+            time.sleep(3)
+            # 取得 cookies 並轉移到 requests session
+            selenium_cookies = driver.get_cookies()
+            for cookie in selenium_cookies:
+                self.session.cookies.set(cookie['name'], cookie['value'], domain=cookie.get('domain'))
+            driver.quit()
+            # 驗證登入是否成功（可根據登入後頁面特徵調整）
+            test_resp = self.session.get(login_url.replace('/login', '/'))
+            if 'logout' in test_resp.text.lower() or '登出' in test_resp.text or test_resp.url != login_url:
+                print("[資訊] Selenium 登入成功")
+                return True
+            else:
+                print("[錯誤] Selenium 登入後未發現登入成功特徵，將嘗試原有 requests 登入...")
+        except Exception as e:
+            print(f"[錯誤] Selenium 登入失敗: {str(e)}，將嘗試原有 requests 登入...")
+        # fallback: 原有 requests 登入
+        try:
             response = self.session.get(login_url, timeout=config.REQUEST_TIMEOUT)
-            
             if response.status_code != 200:
                 print(f"[錯誤] 無法存取登入頁面，狀態碼: {response.status_code}")
                 return False
-            
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # Find login form (try multiple approaches)
-            form = soup.find('form')
-            if not form:
-                # Try to find forms with specific attributes
-                form = soup.find('form', {'id': 'loginForm'}) or \
-                       soup.find('form', {'class': 'login'}) or \
-                       soup.find('form', {'action': re.compile(r'login', re.I)})
-            
-            if not form:
+            from bs4 import BeautifulSoup
+            import re
+            soup = BeautifulSoup(response.text, 'html.parser')
+            form = soup.find('form', {'id': 'loginForm'}) or \
+                   soup.find('form', {'class': 'login'}) or \
+                   soup.find('form', {'action': re.compile(r'login', re.I)})
+            if not form or not hasattr(form, 'find_all'):
                 print("[錯誤] 找不到登入表單")
                 return False
-            
-            # Extract form data
             form_data = {}
-            for input_field in form.find_all('input'):
-                name = input_field.get('name')
-                value = input_field.get('value', '')
-                if name:
-                    form_data[name] = value
-            
-            # Update with credentials - try multiple field name patterns
             username_fields = ['username', 'user', 'email', 'login', 'account', 'userid', 'loginname']
-            password_fields = ['password', 'pass', 'pwd', 'passwd', 'passw']
-            
-            username_set = False
-            password_set = False
-            
-            for field in username_fields:
-                if field in form_data:
-                    form_data[field] = username
-                    username_set = True
-                    break
-            
-            for field in password_fields:
-                if field in form_data:
-                    form_data[field] = password
-                    password_set = True
-                    break
-            
-            # If standard fields not found, try to detect by input types
-            if not username_set or not password_set:
-                for input_field in form.find_all('input'):
-                    input_type = input_field.get('type', '').lower()
-                    name = input_field.get('name')
-                    if name:
-                        if input_type == 'email' or 'email' in name.lower():
-                            form_data[name] = username
-                            username_set = True
-                        elif input_type == 'password':
-                            form_data[name] = password
-                            password_set = True
-            
-            if not username_set or not password_set:
-                print("[錯誤] 無法識別使用者名稱/密碼欄位")
-                return False
-            
-            # Submit login
-            action = form.get('action', login_url)
-            method = form.get('method', 'post').lower()
-            
+            password_fields = ['password', 'passwd', 'pwd']
+            from bs4 import Tag
+            # 只處理 Tag 物件
+            for input_tag in getattr(form, 'find_all', lambda x: [])('input'):
+                if not isinstance(input_tag, Tag):
+                    continue
+                name = input_tag.get('name')
+                if not name:
+                    continue
+                if any(f in safe_lower(name) for f in username_fields):
+                    form_data[name] = username
+                elif any(f in safe_lower(name) for f in password_fields):
+                    form_data[name] = password
+                else:
+                    form_data[name] = input_tag.get('value', '')
+            # 取得 action 與 method，並轉為 str
+            if isinstance(form, Tag):
+                action_val = form.get('action', login_url)
+                method_val = form.get('method', 'post')
+                action = str(action_val) if action_val is not None else login_url
+                method = safe_lower(method_val) if method_val is not None else 'post'
+            else:
+                action = login_url
+                method = 'post'
             if method == 'get':
                 login_response = self.session.get(urljoin(login_url, action), params=form_data, timeout=config.REQUEST_TIMEOUT)
             else:
                 login_response = self.session.post(urljoin(login_url, action), data=form_data, timeout=config.REQUEST_TIMEOUT)
-            
-            # Check for successful login indicators
-            success_indicators = ['dashboard', 'welcome', 'logout', 'profile', 'home', 'main']
-            error_indicators = ['error', 'invalid', 'failed', 'incorrect', 'wrong']
-            
-            response_text = login_response.text.lower()
-            
-            if any(indicator in response_text for indicator in success_indicators):
+            response_text = login_response.text
+            if not isinstance(response_text, str):
+                response_text = str(response_text)
+            response_text = safe_lower(response_text)
+            if 'logout' in response_text or '登出' in response_text or str(login_response.url) != str(login_url):
                 print("[資訊] 登入成功")
                 return True
-            elif any(indicator in response_text for indicator in error_indicators):
+            elif 'error' in response_text or 'fail' in response_text or '錯誤' in response_text:
                 print("[錯誤] 登入失敗 - 帳號或密碼錯誤")
                 return False
             elif login_response.status_code in [200, 302]:
@@ -269,7 +282,6 @@ class VulnerabilityScanner:
             else:
                 print(f"[錯誤] 登入失敗，狀態碼: {login_response.status_code}")
                 return False
-                
         except Exception as e:
             print(f"[錯誤] 登入失敗: {str(e)}")
             return False
@@ -292,9 +304,14 @@ class VulnerabilityScanner:
                     
                     if response.status_code == 200:
                         soup = BeautifulSoup(response.content, 'html.parser')
+                        from bs4 import Tag
                         for link in soup.find_all('a', href=True):
-                            href = link['href']
-                            full_url = urljoin(url, href)
+                            if not isinstance(link, Tag):
+                                continue
+                            href = link.get('href')
+                            if not href:
+                                continue
+                            full_url = urljoin(url, str(href))
                             
                             # Only include URLs from the same domain
                             if urlparse(full_url).netloc == urlparse(base_url).netloc:
@@ -319,8 +336,15 @@ class VulnerabilityScanner:
         
         try:
             spec = importlib.util.spec_from_file_location(cve_id, script_path)
+            if spec is None:
+                print(f"[錯誤] 無法建立 module spec: {script_path}")
+                return None
             module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(module)
+            if spec.loader is not None:
+                spec.loader.exec_module(module)
+            else:
+                print(f"[錯誤] module spec 無 loader: {script_path}")
+                return None
             return module
         except Exception as e:
             print(f"[錯誤] 載入弱點檢測腳本失敗 {cve_id}: {str(e)}")
