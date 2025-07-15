@@ -44,8 +44,7 @@ AVAILABLE_CVES = [
     "CVE-2023-26117", # Angular表單弱點
     "CVE-2023-26116", # Angular路由弱點
     "CVE-2022-25869", # 原型污染弱點
-    "CVE-2022-25844",  # Angular相依性注入弱點
-    "CVE-2022-25844_2"  # Angular相依性注入弱點
+    "CVE-2022-25844"  # Angular相依性注入弱點
 ]
 
 # 日誌設定
